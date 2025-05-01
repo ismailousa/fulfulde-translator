@@ -1,0 +1,38 @@
+{
+    "templates": {
+      "code_generation": "{priming}\n\n{question}\n\nProvide a clear, well-commented Python code solution below.\n\nYour solution:\n\n{decorator}",
+      "debugging": "{priming}\n\nI'm receiving the following error: {error_message}\n\nHere is the relevant code:\n{code_snippet}\n\nProvide a detailed analysis and a step-by-step debugging guide.\n\nYour explanation:\n\n{decorator}",
+      "research_summary": "{priming}\n\nResearch Question: {question}\n\nSummarize the latest research findings, including key papers, trends, and open problems.\n\nYour summary:\n\n{decorator}",
+      "planning_task": "{priming}\n\nTask: {task_description}\n\nCreate a structured step-by-step plan, considering best practices and efficiency.\n\nYour plan:\n\n{decorator}",
+      "slide_presentation": "{priming}\n\nTopic: {topic}\n\nAudience: {audience}\n\nObjective: {goal}\n\nProvide a structured outline for a slide presentation, including slide titles and key points.\n\nSlide Outline:\n\n{decorator}",
+      "market_research": "{priming}\n\nProduct: {product}\n\nTarget Market: {market}\n\nProvide an analysis of market trends, competitors, and potential customer needs.\n\nMarket Analysis:\n\n{decorator}",
+      "feature_prioritization": "{priming}\n\nProduct: {product}\n\nCurrent Challenges: {challenges}\n\nList and prioritize the most critical features to build next, considering user impact, technical feasibility, and business value.\n\nFeature Prioritization:\n\n{decorator}",
+      "investor_pitch": "{priming}\n\nStartup Name: {startup_name}\n\nIndustry: {industry}\n\nKey Value Proposition: {value_proposition}\n\nTarget Investors: {investor_type}\n\nProvide a compelling pitch outline that highlights key elements: problem, solution, traction, revenue model, and future vision.\n\nPitch Outline:\n\n{decorator}"
+    },
+    "default_inputs": {
+      "code_generation": {
+        "priming": "You are an expert Python programmer who writes efficient and clean code.",
+        "question": "Generate a function that removes duplicates from a list while preserving order.",
+        "decorator": "Insert comments for each line of code."
+      },
+      "debugging": {
+        "priming": "You are a senior software engineer skilled in debugging complex Python applications.",
+        "error_message": "TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'",
+        "code_snippet": "def add_numbers(a, b):\n    return a + b",
+        "decorator": "Explain each debugging step clearly."
+      },
+      "research_summary": {
+        "priming": "You are a highly skilled researcher summarizing complex topics in simple terms.",
+        "question": "What are the latest advancements in quantum computing?",
+        "decorator": "Keep the response concise and focus on real-world applications."
+      }
+    },
+    "decorators": {
+      "step_by_step": "Work through it step by step, and show your work. One step per line.",
+      "code_comments": "Insert comments for each line of code.",
+      "debug_explanation": "Explain each debugging step clearly.",
+      "concise_summary": "Keep the response concise and focus on real-world applications.",
+      "detailed_plan": "Provide a structured, detailed step-by-step plan."
+    }
+  }
+  
