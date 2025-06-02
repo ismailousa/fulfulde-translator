@@ -1,0 +1,15 @@
+  0%|                                                      | 0/12 [00:00<?, ?it/s]/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████| 12/12 [17:18<00:00, 86.54s/it]
+{'train_runtime': 1041.1351, 'train_samples_per_second': 0.79, 'train_steps_per_second': 0.012, 'train_loss': 7.222140630086263, 'epoch': 2.44}

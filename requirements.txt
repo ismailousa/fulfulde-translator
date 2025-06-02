@@ -1,0 +1,30 @@
+# Core libraries
+torch>=2.0.0
+transformers>=4.28.0
+datasets>=2.10.0
+peft>=0.4.0
+accelerate>=0.20.0
+evaluate>=0.4.0
+sacrebleu>=2.3.0
+sentencepiece>=0.1.97
+yaml>=0.2.5
+pyyaml>=6.0
+pandas>=1.5.0
+numpy>=1.23.0
+
+# For distillation and export
+ctranslate2>=3.10.0
+onnx>=1.13.0
+onnxruntime>=1.14.0
+
+# For logging and visualization
+wandb>=0.15.0
+tensorboard>=2.12.0
+
+# For testing
+pytest>=7.3.0
+pytest-cov>=4.1.0
+
+# Utilities
+tqdm>=4.65.0
+jsonlines>=3.1.0

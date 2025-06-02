@@ -1,0 +1,88 @@
+
+
+
+
+  0%|                                       | 4/20790 [02:10<182:42:45, 31.64s/it]Traceback (most recent call last):
+  File "/Users/isma/Development/personal/fulfulde-translator/src/training/train.py", line 292, in <module>
+    train(
+  File "/Users/isma/Development/personal/fulfulde-translator/src/training/train.py", line 223, in train
+    trainer.train()
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/transformers/trainer.py", line 2556, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/transformers/trainer.py", line 3718, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/transformers/trainer.py", line 3783, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/peft/peft_model.py", line 1249, in forward
+    return self.base_model(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/peft/tuners/tuners_utils.py", line 103, in forward
+    return self.model.forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/transformers/models/m2m_100/modeling_m2m_100.py", line 1581, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/transformers/models/m2m_100/modeling_m2m_100.py", line 1468, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/transformers/models/m2m_100/modeling_m2m_100.py", line 1080, in forward
+    layer_outputs = encoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/transformers/models/m2m_100/modeling_m2m_100.py", line 617, in forward
+    hidden_states, attn_weights, _ = self.self_attn(
+                                     ^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/transformers/models/m2m_100/modeling_m2m_100.py", line 504, in forward
+    query_states = self.q_proj(hidden_states)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/lib/python3.12/site-packages/peft/tuners/lora/layer.py", line 373, in forward
+    result += lora_B(lora_A(dropout(x))) * scaling
+    ^^^^^^
+KeyboardInterrupt

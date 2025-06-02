@@ -1,0 +1,64 @@
+{
+    "os": "macOS-15.2-arm64-arm-64bit",
+    "python": "3.12.10",
+    "heartbeatAt": "2025-06-02T11:31:49.041011",
+    "startedAt": "2025-06-02T11:31:48.342896",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model_type",
+        "nllb",
+        "--src_lang",
+        "en",
+        "--tgt_lang",
+        "ff",
+        "--data_path",
+        "data/adamawa_english_fulfulde_french_fub.jsonl",
+        "--output_dir",
+        "../models",
+        "--num_epochs",
+        "3",
+        "--batch_size",
+        "16",
+        "--use_peft"
+    ],
+    "state": "running",
+    "program": "-m src.training.train",
+    "codePathLocal": null,
+    "git": {
+        "remote": "git@github.com:ismailousa/fulfulde-translator.git",
+        "commit": "c2eac85b76c492be546f9f67d50a9b09f6595ea5"
+    },
+    "email": "ismailou.sa@gmail.com",
+    "root": "/Users/isma/Development/personal/fulfulde-translator",
+    "host": "Mac.fritz.box",
+    "username": "isma",
+    "executable": "/Users/isma/Library/Caches/pypoetry/virtualenvs/fulfulde-translator-9p9OQShW-py3.12/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 4,
+        "min": 0,
+        "max": 4
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4,
+            "min": 0,
+            "max": 4
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 14.920112609863281
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
