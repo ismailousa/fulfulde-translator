@@ -1,0 +1,141 @@
+{
+    "os": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10",
+    "heartbeatAt": "2025-06-02T20:11:45.337090",
+    "startedAt": "2025-06-02T20:11:45.001654",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--auto_config",
+        "--model_type",
+        "nllb",
+        "--src_lang",
+        "en",
+        "--tgt_lang",
+        "ff",
+        "--data_path",
+        "data/adamawa_english_fulfulde.jsonl",
+        "--output_dir",
+        "outputs/nllb_en_ff",
+        "--use_peft"
+    ],
+    "state": "running",
+    "program": "/home/fulfulde-translator/src/training/train.py",
+    "codePathLocal": "src/training/train.py",
+    "codePath": "src/training/train.py",
+    "git": {
+        "remote": "git@github.com:ismailousa/fulfulde-translator.git",
+        "commit": "7c43f2c4b184f85d46f18a6ead047aa824253333"
+    },
+    "email": "ismailou.sa@gmail.com",
+    "root": "/home/fulfulde-translator",
+    "host": "96a20fae607c",
+    "username": "root",
+    "executable": "/root/.cache/pypoetry/virtualenvs/fulfulde-translator-p6GklH11-py3.11/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2670.4153125,
+        "min": 2500.0,
+        "max": 3700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2081.411,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2992.943,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2497.626,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2500.0,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2486.216,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2489.345,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2490.09,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3892.825,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2496.816,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2993.514,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2496.293,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2495.222,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2482.013,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2500.0,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2500.0,
+            "min": 2500.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3892.404,
+            "min": 2500.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 20.0,
+            "used": 17.905521392822266
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 125.66180038452148
+    }
+}
