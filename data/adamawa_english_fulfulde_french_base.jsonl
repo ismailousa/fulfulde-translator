@@ -16,7 +16,9 @@
 {"english": "It is a teacher.", "fulfulde": "Ɗum janginoowo.", "french": "C'est une enseignante."}
 {"english": "Who is it?", "fulfulde": "Ɗum moy?", "french": "Qui est-ce ?"}
 {"english": "Zeynabu's husband.", "fulfulde": "Gorko Zeynabu.", "french": "Le mari de Zeynabu."}
+{"english": "I went there with my elder brother.", "fulfulde": "Mi yahi ton bee hamma am", "french": "Je suis allé là-bas avec mon frère aîné."}
 {"english": "Usmanu is whose child?", "fulfulde": "Usmanu ɓii moy?", "french": "Usmanu est l'enfant de qui ?"}
+{"english": "And whose child is this?", "fulfulde": "Oo boo ɓingel moy?", "french": "Et celui ci, c'est l'enfant de qui?"}
 {"english": "Ali is whose father?", "fulfulde": "Ali baaba moyjoo?", "french": "Ali est le pere de qui?"}
 {"english": "Hello!", "fulfulde": "Sannu!", "french": "Bonjour !"}
 {"english": "Usmanu is the child of Ali and Zeynabu.", "fulfulde": "Usmanu ɓii Ali bee Zeynabu.", "french": "Usmanu est l'enfant d'Ali et de Zeynabu."}
@@ -24,13 +26,20 @@
 {"english": "Here is his house.", "fulfulde": "Ndaa saare maako.", "french": "Voici sa maison."}
 {"english": "Whose chair is this?", "fulfulde": "Ɗum koroowal moy?", "french": "À qui est cette chaise ?"}
 {"english": "It is my book.", "fulfulde": "Ɗum deftere am.", "french": "C'est mon livre."}
+{"english": "It is not my book.", "fulfulde": "Naa ɗum deftere am.", "french": "Ce n'est pas mon livre."}
 {"english": "Hi to you.", "fulfulde": "Sannu maa.", "french": "Salut à toi."}
 {"english": "Thanks.", "fulfulde": "Useko.", "french": "Merci."}
 {"english": "Hi to you.", "fulfulde": "Sannu maaɗa.", "french": "Salut à toi."}
 {"english": "Hi to you all.", "fulfulde": "Sannu mo'on.", "french": "Salut à vous tous."}
 {"english": "Welcome.", "fulfulde": "Jaɓɓaama.", "french": "Bienvenue."}
+{"english": "You are welcome.", "fulfulde": "A jaɓɓaama.", "french": "Tu es le Bienvenue."}
+{"english": "You all are welcome", "fulfulde": "On jaɓɓaama.", "french": "Vous êtes les Bienvenue."}
 {"english": "I accept the welcome.", "fulfulde": "Mi jaɓi.", "french": "J'accepte le bienvenue."}
 {"english": "Good morning.", "fulfulde": "A waali jam?", "french": "Bonjour."}
+{"english": "What's up?", "fulfulde": "Noy ton?", "french": "Ça va?"}
+{"english": "Good morning", "fulfulde": "A weeti jam?", "french": "Bon matin."}
+{"english": "Good afternoon", "fulfulde": "Jam nyalli?", "french": "Bon après-midi."}
+{"english": "Good evening", "fulfulde": "A hirti jam?", "french": "Bonsoir."}
 {"english": "You slept well?", "fulfulde": "A waali jam?", "french": "Tu as bien dormi ?"}
 {"english": "Fine.", "fulfulde": "Jam.", "french": "Bien."}
 {"english": "All is fine.", "fulfulde": "Jam kooɗume.", "french": "Tout va bien."}
@@ -54,6 +63,7 @@
 {"english": "The household is all well.", "fulfulde": "Saare fuh yamre", "french": "La maison va bien."}
 {"english": "Okay.", "fulfulde": "Too.", "french": "D'accord."}
 {"english": "Good.", "fulfulde": "Boɗɗum.", "french": "Bien."}
+{"english": "Okay.", "fulfulde": "Wooɗi.", "french": "D'accord."}
 {"english": "See you soon.", "fulfulde": "Sey yeeso.", "french": "À bientôt."}
 {"english": "Until tomorrow.", "fulfulde": "Sey jango.", "french": "À demain."}
 {"english": "Until another time ", "fulfulde": "Sey wakkati feere.", "french": "À une autre fois."}

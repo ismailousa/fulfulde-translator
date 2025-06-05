@@ -3,9 +3,9 @@ data:
   seed: 42
   train_test_split: 0.1
 evaluation:
-  eval_steps: 500
+  eval_steps: 1000
   metric: sacrebleu
-  save_steps: 500
+  save_steps: 1000
 models:
   m2m100:
     language_codes:
@@ -32,11 +32,11 @@ peft:
 training:
   bf16: false
   fp16: false
-  gradient_accumulation_steps: 4
-  learning_rate: 0.0003
+  gradient_accumulation_steps: 2
+  learning_rate: 0.0002
   max_grad_norm: 1.0
   num_training_epochs: 15
-  num_warmup_steps: 500
+  num_warmup_steps: 1000
   optimizer: adamw_torch
   per_device_eval_batch_size: 4
   per_device_train_batch_size: 4

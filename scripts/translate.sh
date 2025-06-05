@@ -6,6 +6,7 @@ set -e
 
 # Default values
 MODEL_DIR="models/nllb_ff_en"
+# MODEL_DIR="outputs/nllb_ff_en_pod"
 MODEL_TYPE="nllb"
 USE_PEFT="--use_peft"
 SRC_LANG="ff"

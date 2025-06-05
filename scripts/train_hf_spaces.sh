@@ -9,7 +9,7 @@ MODEL_TYPE="nllb"
 SRC_LANG="ff"
 TGT_LANG="fr"
 DATA_PATH="data/adamawa_english_fulfulde_french_fub.jsonl"
-OUTPUT_DIR="outputs/nllb_ff_fr"
+OUTPUT_DIR="models/nllb_ff_fr"
 
 # =================================================================
 # Option A: No-code AutoTrain (see https://huggingface.co/autotrain)
