@@ -6,7 +6,7 @@ authors = [
     {name = "Isma-Ilou Sadou",email = "ismailou.sa@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12,<4.0"
+requires-python = ">=3.10,<4.0"
 dependencies = [
     "pandas (>=2.2.3,<3.0.0)",
     "pdfplumber (>=0.11.5,<0.12.0)",
