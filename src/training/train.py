@@ -153,6 +153,21 @@ def train(
         test_size=config["data"]["train_test_split"],
         seed=config["data"]["seed"]
     )
+
+    # print dataset, size of each  split, and 10 examples each also totals
+    print("Dataset:", dataset)
+    print("Size of each split:", dataset.num_rows)
+    print("10 examples each:")
+    for split in dataset:
+        print(dataset[split].select(range(10)))
+    print("Total examples:", dataset.num_rows)
+
+    # also print each line in the examples eg the src and tgt
+    for split in dataset:
+        for i in range(10):
+            print(dataset[split][i])
+
+    exit()
     
     # Preprocess dataset
     tokenized_dataset = dataset.map(
