@@ -12,7 +12,7 @@ MODEL_TYPE="nllb"
 SRC_LANG="ff"
 TGT_LANG="en"
 DATA_PATH="data/adamawa_english_fulfulde.jsonl"
-OUTPUT_DIR="models/nllb_ff_en_pod"
+OUTPUT_DIR="models/nllb_ff_en_2806"
 
 # Create output directory if it doesn't exist
 mkdir -p $OUTPUT_DIR
