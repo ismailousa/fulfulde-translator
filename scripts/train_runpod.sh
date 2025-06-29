@@ -9,10 +9,10 @@ set -e
 
 # Define parameters for easier reuse
 MODEL_TYPE="nllb"
-SRC_LANG="en"
-TGT_LANG="ff"
+SRC_LANG="ff"
+TGT_LANG="en"
 DATA_PATH="data/adamawa_english_fulfulde.jsonl"
-OUTPUT_DIR="models/nllb_en_ff_2806"
+OUTPUT_DIR="models/nllb_ff_en_2806"
 
 # Create output directory if it doesn't exist
 mkdir -p $OUTPUT_DIR
