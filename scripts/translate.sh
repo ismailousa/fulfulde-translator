@@ -5,12 +5,12 @@
 set -e
 
 # Default values
-MODEL_DIR="models/nllb_ff_en"
+MODEL_DIR="models/nllb_en_ff_2806"
 # MODEL_DIR="outputs/nllb_ff_en_pod"
 MODEL_TYPE="nllb"
 USE_PEFT="--use_peft"
-SRC_LANG="ff"
-TGT_LANG="en"
+SRC_LANG="en"
+TGT_LANG="ff"
 
 # Display usage information
 function show_usage {
