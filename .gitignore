@@ -39,22 +39,22 @@ htmlcov/
 .coverage.*
 
 # Models & Data
-checkpoints/
-outputs/
-logs/
-*.ckpt
-*.pt
-*.bin
-*.pth
-*.safetensors
-*.onnx
-saved_models/
+# checkpoints/
+# outputs/
+# logs/
+# *.ckpt
+# *.pt
+# *.bin
+# *.pth
+# *.safetensors
+# *.onnx
+# saved_models/
 wandb/
 
 # Training artifacts
-accelerate-config.yaml
-peft_model/
-distilled_models/
+# accelerate-config.yaml
+# peft_model/
+# distilled_models/
 
 # VS Code
 .vscode/
